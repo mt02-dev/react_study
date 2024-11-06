@@ -1,10 +1,12 @@
 import './App.css'
-import { Question } from './component/Question'
+import ColorButtonContainer from './container/ColorButton'
+import { Question } from './container/Question'
 
 function App() {
   return (
     <>
       <Question />
+      <ColorButtonContainer />
     </>
 
   )
